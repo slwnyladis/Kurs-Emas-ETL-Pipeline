@@ -1,0 +1,99 @@
+[2024-11-20T07:25:58.129+0000] {processor.py:186} INFO - Started process (PID=98) to work on /opt/airflow/dags/emas.py
+[2024-11-20T07:25:58.131+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emas.py for tasks to queue
+[2024-11-20T07:25:58.136+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:25:58.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emas.py
+[2024-11-20T07:25:58.460+0000] {processor.py:925} INFO - DAG(s) 'gold_price_and_currency_rate_etl' retrieved from /opt/airflow/dags/emas.py
+[2024-11-20T07:25:58.638+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:25:58.637+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:gold_price_and_currency_rate_etl
+[2024-11-20T07:25:58.656+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:25:58.655+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:gold_price_and_currency_rate_etl
+[2024-11-20T07:25:58.675+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:25:58.674+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:gold_price_and_currency_rate_etl
+[2024-11-20T07:25:58.692+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:25:58.691+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:gold_price_and_currency_rate_etl
+[2024-11-20T07:25:58.710+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:25:58.709+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:gold_price_and_currency_rate_etl
+[2024-11-20T07:25:58.727+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:25:58.726+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:gold_price_and_currency_rate_etl
+[2024-11-20T07:25:58.739+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:25:58.738+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:gold_price_and_currency_rate_etl
+[2024-11-20T07:25:58.740+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:25:58.739+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:25:58.760+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:25:58.760+0000] {dag.py:3262} INFO - Creating ORM DAG for gold_price_and_currency_rate_etl
+[2024-11-20T07:25:58.777+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:25:58.777+0000] {dag.py:4180} INFO - Setting next_dagrun for gold_price_and_currency_rate_etl to 2024-11-19 00:00:00+00:00, run_after=2024-11-20 00:00:00+00:00
+[2024-11-20T07:25:58.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emas.py took 0.687 seconds
+[2024-11-20T07:26:29.803+0000] {processor.py:186} INFO - Started process (PID=163) to work on /opt/airflow/dags/emas.py
+[2024-11-20T07:26:29.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emas.py for tasks to queue
+[2024-11-20T07:26:29.807+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:26:29.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emas.py
+[2024-11-20T07:26:29.913+0000] {processor.py:925} INFO - DAG(s) 'gold_price_and_currency_rate_etl' retrieved from /opt/airflow/dags/emas.py
+[2024-11-20T07:26:29.934+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:26:29.933+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:26:29.964+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:26:29.964+0000] {dag.py:4180} INFO - Setting next_dagrun for gold_price_and_currency_rate_etl to 2024-11-19 00:00:00+00:00, run_after=2024-11-20 00:00:00+00:00
+[2024-11-20T07:26:29.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emas.py took 0.188 seconds
+[2024-11-20T07:28:21.093+0000] {processor.py:186} INFO - Started process (PID=98) to work on /opt/airflow/dags/emas.py
+[2024-11-20T07:28:21.094+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emas.py for tasks to queue
+[2024-11-20T07:28:21.097+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:28:21.096+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emas.py
+[2024-11-20T07:28:21.407+0000] {processor.py:925} INFO - DAG(s) 'gold_price_and_currency_rate_etl' retrieved from /opt/airflow/dags/emas.py
+[2024-11-20T07:28:21.448+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:28:21.447+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:28:21.500+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:28:21.500+0000] {dag.py:4180} INFO - Setting next_dagrun for gold_price_and_currency_rate_etl to 2024-11-19 00:00:00+00:00, run_after=2024-11-20 00:00:00+00:00
+[2024-11-20T07:28:21.528+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emas.py took 0.443 seconds
+[2024-11-20T07:28:51.607+0000] {processor.py:186} INFO - Started process (PID=164) to work on /opt/airflow/dags/emas.py
+[2024-11-20T07:28:51.608+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emas.py for tasks to queue
+[2024-11-20T07:28:51.610+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:28:51.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emas.py
+[2024-11-20T07:28:51.746+0000] {processor.py:925} INFO - DAG(s) 'gold_price_and_currency_rate_etl' retrieved from /opt/airflow/dags/emas.py
+[2024-11-20T07:28:51.768+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:28:51.768+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:28:51.799+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:28:51.799+0000] {dag.py:4180} INFO - Setting next_dagrun for gold_price_and_currency_rate_etl to 2024-11-19 00:00:00+00:00, run_after=2024-11-20 00:00:00+00:00
+[2024-11-20T07:28:51.823+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emas.py took 0.221 seconds
+[2024-11-20T07:29:22.009+0000] {processor.py:186} INFO - Started process (PID=230) to work on /opt/airflow/dags/emas.py
+[2024-11-20T07:29:22.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emas.py for tasks to queue
+[2024-11-20T07:29:22.014+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:29:22.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emas.py
+[2024-11-20T07:29:22.139+0000] {processor.py:925} INFO - DAG(s) 'gold_price_and_currency_rate_etl' retrieved from /opt/airflow/dags/emas.py
+[2024-11-20T07:29:22.162+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:29:22.162+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:29:22.188+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:29:22.188+0000] {dag.py:4180} INFO - Setting next_dagrun for gold_price_and_currency_rate_etl to 2024-11-19 00:00:00+00:00, run_after=2024-11-20 00:00:00+00:00
+[2024-11-20T07:29:22.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emas.py took 0.208 seconds
+[2024-11-20T07:29:52.753+0000] {processor.py:186} INFO - Started process (PID=293) to work on /opt/airflow/dags/emas.py
+[2024-11-20T07:29:52.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emas.py for tasks to queue
+[2024-11-20T07:29:52.757+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:29:52.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emas.py
+[2024-11-20T07:29:52.870+0000] {processor.py:925} INFO - DAG(s) 'gold_price_and_currency_rate_etl' retrieved from /opt/airflow/dags/emas.py
+[2024-11-20T07:29:52.894+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:29:52.893+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:29:52.920+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:29:52.920+0000] {dag.py:4180} INFO - Setting next_dagrun for gold_price_and_currency_rate_etl to 2024-11-19 00:00:00+00:00, run_after=2024-11-20 00:00:00+00:00
+[2024-11-20T07:29:52.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emas.py took 0.192 seconds
+[2024-11-20T07:30:23.681+0000] {processor.py:186} INFO - Started process (PID=358) to work on /opt/airflow/dags/emas.py
+[2024-11-20T07:30:23.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emas.py for tasks to queue
+[2024-11-20T07:30:23.684+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:30:23.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emas.py
+[2024-11-20T07:30:23.824+0000] {processor.py:925} INFO - DAG(s) 'gold_price_and_currency_rate_etl' retrieved from /opt/airflow/dags/emas.py
+[2024-11-20T07:30:23.853+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:30:23.852+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:30:23.887+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:30:23.886+0000] {dag.py:4180} INFO - Setting next_dagrun for gold_price_and_currency_rate_etl to 2024-11-19 00:00:00+00:00, run_after=2024-11-20 00:00:00+00:00
+[2024-11-20T07:30:23.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emas.py took 0.246 seconds
+[2024-11-20T07:30:54.164+0000] {processor.py:186} INFO - Started process (PID=423) to work on /opt/airflow/dags/emas.py
+[2024-11-20T07:30:54.165+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emas.py for tasks to queue
+[2024-11-20T07:30:54.167+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:30:54.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emas.py
+[2024-11-20T07:30:54.293+0000] {processor.py:925} INFO - DAG(s) 'gold_price_and_currency_rate_etl' retrieved from /opt/airflow/dags/emas.py
+[2024-11-20T07:30:54.316+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:30:54.315+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:30:54.350+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:30:54.350+0000] {dag.py:4180} INFO - Setting next_dagrun for gold_price_and_currency_rate_etl to 2024-11-19 00:00:00+00:00, run_after=2024-11-20 00:00:00+00:00
+[2024-11-20T07:30:54.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emas.py took 0.214 seconds
+[2024-11-20T07:31:25.043+0000] {processor.py:186} INFO - Started process (PID=488) to work on /opt/airflow/dags/emas.py
+[2024-11-20T07:31:25.044+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emas.py for tasks to queue
+[2024-11-20T07:31:25.047+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:31:25.047+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emas.py
+[2024-11-20T07:31:25.197+0000] {processor.py:925} INFO - DAG(s) 'gold_price_and_currency_rate_etl' retrieved from /opt/airflow/dags/emas.py
+[2024-11-20T07:31:25.225+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:31:25.225+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:31:25.252+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:31:25.251+0000] {dag.py:4180} INFO - Setting next_dagrun for gold_price_and_currency_rate_etl to 2024-11-19 00:00:00+00:00, run_after=2024-11-20 00:00:00+00:00
+[2024-11-20T07:31:25.276+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emas.py took 0.241 seconds
+[2024-11-20T07:31:55.739+0000] {processor.py:186} INFO - Started process (PID=553) to work on /opt/airflow/dags/emas.py
+[2024-11-20T07:31:55.741+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emas.py for tasks to queue
+[2024-11-20T07:31:55.744+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:31:55.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emas.py
+[2024-11-20T07:31:55.895+0000] {processor.py:925} INFO - DAG(s) 'gold_price_and_currency_rate_etl' retrieved from /opt/airflow/dags/emas.py
+[2024-11-20T07:31:55.918+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:31:55.917+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:31:55.944+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:31:55.944+0000] {dag.py:4180} INFO - Setting next_dagrun for gold_price_and_currency_rate_etl to 2024-11-19 00:00:00+00:00, run_after=2024-11-20 00:00:00+00:00
+[2024-11-20T07:31:55.968+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emas.py took 0.236 seconds
+[2024-11-20T07:32:26.025+0000] {processor.py:186} INFO - Started process (PID=619) to work on /opt/airflow/dags/emas.py
+[2024-11-20T07:32:26.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emas.py for tasks to queue
+[2024-11-20T07:32:26.030+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:32:26.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emas.py
+[2024-11-20T07:32:26.255+0000] {processor.py:925} INFO - DAG(s) 'gold_price_and_currency_rate_etl' retrieved from /opt/airflow/dags/emas.py
+[2024-11-20T07:32:26.298+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:32:26.297+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:32:26.348+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:32:26.348+0000] {dag.py:4180} INFO - Setting next_dagrun for gold_price_and_currency_rate_etl to 2024-11-19 00:00:00+00:00, run_after=2024-11-20 00:00:00+00:00
+[2024-11-20T07:32:26.403+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emas.py took 0.387 seconds
+[2024-11-20T07:32:56.573+0000] {processor.py:186} INFO - Started process (PID=686) to work on /opt/airflow/dags/emas.py
+[2024-11-20T07:32:56.574+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emas.py for tasks to queue
+[2024-11-20T07:32:56.577+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:32:56.576+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emas.py
+[2024-11-20T07:32:56.720+0000] {processor.py:925} INFO - DAG(s) 'gold_price_and_currency_rate_etl' retrieved from /opt/airflow/dags/emas.py
+[2024-11-20T07:32:56.743+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:32:56.743+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:32:56.771+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:32:56.770+0000] {dag.py:4180} INFO - Setting next_dagrun for gold_price_and_currency_rate_etl to 2024-11-19 00:00:00+00:00, run_after=2024-11-20 00:00:00+00:00
+[2024-11-20T07:32:56.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emas.py took 0.229 seconds
+[2024-11-20T07:33:27.292+0000] {processor.py:186} INFO - Started process (PID=755) to work on /opt/airflow/dags/emas.py
+[2024-11-20T07:33:27.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emas.py for tasks to queue
+[2024-11-20T07:33:27.302+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:33:27.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emas.py
+[2024-11-20T07:33:27.462+0000] {processor.py:925} INFO - DAG(s) 'gold_price_and_currency_rate_etl' retrieved from /opt/airflow/dags/emas.py
+[2024-11-20T07:33:27.488+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:33:27.487+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:33:27.517+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:33:27.516+0000] {dag.py:4180} INFO - Setting next_dagrun for gold_price_and_currency_rate_etl to 2024-11-19 00:00:00+00:00, run_after=2024-11-20 00:00:00+00:00
+[2024-11-20T07:33:27.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emas.py took 0.258 seconds
